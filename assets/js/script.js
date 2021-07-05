@@ -7,13 +7,22 @@ today = dd + '/' + mm + '/' + yyyy;
 
 document.getElementById('currentDay').innerHTML = ("The date is " + today);
 
-var saveButton = document.querySelector(".save-button");
-var workOne = document.querySelector(".work-one");
 
-var textOne = window.localStorage.getItem("textOne");
 
-saveButton.addEventListener("click", function() {
-    workOne.textContent = textOne;
-    window.localStorage.setItem("textOne", textOne);
+var userInputOne = document.querySelector(".work-one");
+var userInputSavedOne = document.querySelector(".input-one");
+var saveButtonOne = document.querySelector(".save-button-one");
+
+
+function renderLastInput() {
+    var theInputOne = localstorage.getItem("inputOne");
+    userInputSavedOne.textContent  = userInputOne.textContent;
+}
+
+saveButtonOne.addEventListener("click", function(event) {
+    event.preventDefault();
+
+    var inputOne = document.querySelector(".work-one");
+    localStorage.setItem("inputOne", userInputOne);
+    renderLastInput;
 })
-
