@@ -27,7 +27,8 @@ var colorSixteen = document.getElementById("")
 var colorSeventeen = document.getElementById("")
 
 function setBackgroundSix() {
-    if hour > 
+    if hour > 6;
+    inpup.classList.add("")
 }
 
 
