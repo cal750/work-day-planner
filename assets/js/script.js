@@ -8,6 +8,28 @@ function beforeNow() {
     document.querySelector(".time-block").style.color = "blue";
 };
 
+const hour = moment().format("HH");
+var green = "rgb(248, 0, 0)";
+var white = "#efefef";
+var red = "rgb(103, 245, 84)";
+
+var colorSix = document.getElementById("")
+var colorSeven = document.getElementById("")
+var colorEight = document.getElementById("")
+var colorNine = document.getElementById("")
+var colorTen = document.getElementById("")
+var colorEleven = document.getElementById("")
+var colorTwelve = document.getElementById("")
+var colorThirteen = document.getElementById("")
+var colorFourteen = document.getElementById("")
+var colorFifteen = document.getElementById("")
+var colorSixteen = document.getElementById("")
+var colorSeventeen = document.getElementById("")
+
+function setBackgroundSix() {
+    if hour > 
+}
+
 
 
 
@@ -27,5 +49,5 @@ saveButtonOne.addEventListener("click", function(event) {
     var inputOne = document.querySelector(".work-one");
     localStorage.setItem("inputOne", userInputOne);
     renderLastInput;
-})
+});
 

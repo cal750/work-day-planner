@@ -17,9 +17,8 @@ body {
       margin-top: 5px;
       margin-bottom: 5px;
       height: 200px;
-      background-color: cornflowerblue;
   }
-  }
+
 
   .lead {
       text-align: left;
@@ -35,8 +34,6 @@ body {
       position: relative;
       top: 90px;
       width: 100px;
-      background-color: lightcoral;
+      background-color: rgb(103, 245, 84);
   }
-
-
   
