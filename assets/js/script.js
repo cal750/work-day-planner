@@ -3,6 +3,12 @@ console.log(today);
 
 document.getElementById('currentDay').innerHTML = ("The date is " + today);
 
+function beforeNow() {
+    if (moment().format('Do MMMM YYYY, h:mm a') >= moment().format('Do MMMM YYYY, 2:00 a'))
+    document.querySelector(".time-block").style.color = "blue";
+};
+
+
 
 
 var userInputOne = document.querySelector(".work-one");
@@ -22,3 +28,4 @@ saveButtonOne.addEventListener("click", function(event) {
     localStorage.setItem("inputOne", userInputOne);
     renderLastInput;
 })
+
