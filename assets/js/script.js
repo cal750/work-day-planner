@@ -1,9 +1,5 @@
-var today = new Date();
-var dd = String(today.getDate()).padStart(2, '0');
-var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
-var yyyy = today.getFullYear();
-
-today = dd + '/' + mm + '/' + yyyy;
+var today = moment().format('Do MMMM YYYY, h:mm a'); {}
+console.log(today);
 
 document.getElementById('currentDay').innerHTML = ("The date is " + today);
 

@@ -12,20 +12,13 @@ body {
     border-bottom: 2px solid black;
   }
 
-  .time-block1 {
+  .time-block {
       width: 100%;
       margin-top: 5px;
       margin-bottom: 5px;
       height: 200px;
       background-color: cornflowerblue;
   }
-
-  .time-block2 {
-    width: 100%;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    height: 200px;
-    background-color: lightblue;
   }
 
   .lead {
