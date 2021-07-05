@@ -28,7 +28,16 @@ var colorSeventeen = document.getElementById("")
 
 function setBackgroundSix() {
     if hour > 6;
-    inpup.classList.add("")
+    input.classList.add("red");
+
+    else if hour = 6 {
+        input.classList.add("white");
+
+    else {
+        input.classList.add("green");
+        )
+    }
+    }
 }
 
 
